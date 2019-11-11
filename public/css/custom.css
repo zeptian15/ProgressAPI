@@ -1,0 +1,44 @@
+	h1 {
+		color : #484848;
+	}
+	.wrapper{
+		position: fixed;
+		height: 110%;
+		width: 100%;
+		padding: 20px;
+		margin: -20px;
+	}
+
+	.sidebar-top{
+		padding: 20px 20px 190px 20px;
+	}
+	.has-gradient-yellow{
+		background: linear-gradient(135deg, rgba(255,192,0,1) 0%, rgba(255,174,0,1) 100%);
+	}
+
+	.has-gradient-blue{
+		background: linear-gradient(135deg, rgb(0, 173, 255) 0%, rgb(29, 115, 204) 100%);
+	}
+
+	.has-gradient-green{
+		background: linear-gradient(135deg, rgb(0, 255, 43) 0%, rgb(24, 160, 18) 100%);
+	}
+
+	.card-sidebar{
+		position: relative;
+		top: -170px;
+		min-height: 550px;
+	}
+	.has-card-shadow{
+		box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
+	}
+	.is-rounded{
+		border-radius: 20px;
+	}
+	.user-name{
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	.p20{
+		padding: 20px;
+	}
